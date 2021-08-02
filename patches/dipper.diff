@@ -45,7 +45,7 @@ diff --color -ru a/usr/share/unity8/Shell.qml b/usr/share/unity8/Shell.qml
              mode: shell.usageScenario == "desktop" ? "windowed" : "staged"
 -            minimizedPanelHeight: units.gu(3)
 -            expandedPanelHeight: units.gu(7)
-+            // HAX: match panel height with notch & add extra space for it in expanded mode
++            //HAX: match panel height with notch & add extra space for it in expanded mode
 +            minimizedPanelHeight: units.gu(4.2)
 +            expandedPanelHeight: units.gu(7) + (shell.orientationAngle == 0 ? minimizedPanelHeight : 0)
              applicationMenuContentX: launcher.lockedVisible ? launcher.panelWidth : 0
