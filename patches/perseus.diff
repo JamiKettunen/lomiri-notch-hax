@@ -1,0 +1,12 @@
+diff --color -ru a/usr/share/unity8/Panel/PanelMenu.qml b/usr/share/unity8/Panel/PanelMenu.qml
+--- a/usr/share/unity8/Panel/PanelMenu.qml	2021-01-14 18:25:16.111002000 +0200
++++ b/usr/share/unity8/Panel/PanelMenu.qml	2021-01-18 01:03:28.394353418 +0200
+@@ -178,6 +178,8 @@
+         anchors {
+             left: parent.left
+             right: parent.right
++            // HAX: extra margin for right side of curved screen corners
++            rightMargin: expanded ? 0 : units.gu(1.2)
+         }
+         expanded: false
+         enableLateralChanges: false
