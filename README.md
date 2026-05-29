@@ -1,4 +1,8 @@
-# lomiri-notch-hax
+# DEPRECATED
+As of 2026 this repository hasn't been maintained for a while and until official support for something similar appears in Ubuntu Touch itself nowadays it's better to instead use [`Ambot Installer: Hacks and Mods` from OpenStore](https://next.open-store.io/app/jerk-click.kugiigi), from there setup `Lomiri Plus Essentials` and tweak interesting settings which also support any device.<br>
+<img src="images/ambot.png" height="480" />
+
+# lomiri-notch-hax (original README)
 Lomiri (formely Unity 8) patches for improved display notch and rounded corners support on devices such as the Volla Phone.
 
 ## Supported devices
